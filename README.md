@@ -4,7 +4,7 @@ Project 2 Repository for Group 4
 Current status/ meeting notes:
 We have voluntereed for the following breakup of subsections:
 
- - Angelo:  Create the Category and Subcategory DataFrames
+ - DONE***** Angelo:  Create the Category and Subcategory DataFrames 
  - Ashley:  Create the Campaign DataFrame
  - Natalie: Create the Contacts DataFrame
  - Shannon: Create the Crowdfunding Database
