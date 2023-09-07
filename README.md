@@ -49,6 +49,8 @@ The project directory structure is organized as follows:
   
   ![image](https://github.com/sunshinebearlloyd/Crowdfunding_ETL/assets/132225987/3aecab61-1a60-4244-9d81-d546dcd3a02d)
 
+  It's important to note that each team member had a distinct role that contributed to the overall success of the ETL (Extract, Transform, Load) pipeline project. These roles included data categorization, data cleaning, and data extraction, ensuring that the project's data was well-prepared for further analysis and use. Additionally, the collaborative effort involved merging various datasets to create a cohesive dataset for the project's objectives. The collaboration and coordination of these roles were essential in achieving the project's goals effectively.
+
 
 
 
