@@ -1,6 +1,7 @@
-﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- Link to schema: https://app.quickdatabasediagrams.com/#/d/eqgwI9
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
+
 DROP TABLE IF EXISTS campaign;
 DROP TABLE IF EXISTS contacts;
 DROP TABLE IF EXISTS category;
@@ -52,19 +53,28 @@ CREATE TABLE "subcategory" (
      )
 );
 
-ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_contact_id" FOREIGN KEY("contact_id")
-REFERENCES "contacts" ("contact_id");
+ALTER TABLE "contacts" ADD CONSTRAINT "fk_contacts_contact_id" FOREIGN KEY("contact_id")
+REFERENCES "campaign" ("contact_id");
 
-ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_category_id" FOREIGN KEY("category_id")
-REFERENCES "category" ("category_id");
+ALTER TABLE "category" ADD CONSTRAINT "fk_category_category_id" FOREIGN KEY("category_id")
+REFERENCES "campaign" ("category_id");
 
-ALTER TABLE "campaign" ADD CONSTRAINT "fk_campaign_subcategory_id" FOREIGN KEY("subcategory_id")
-REFERENCES "subcategory" ("subcategory_id");
+ALTER TABLE "subcategory" ADD CONSTRAINT "fk_subcategory_subcategory_id" FOREIGN KEY("subcategory_id")
+REFERENCES "campaign" ("subcategory_id");
 
-
+--Run before import to check that the tables are created correctly
+--Import campaign last because of dependencies
+--Run after import to check that the tables are populated correctly
 SELECT * FROM campaign;
 SELECT * FROM contacts;
 SELECT * FROM category;
 SELECT * FROM subcategory;
 
 
+--This is my own check and is not in the project specifications
+--Test to see relationships between tables
+SELECT camp.company_name, cont.email, cat.category, sub.subcategory
+FROM campaign camp
+INNER JOIN contacts cont ON cont.contact_id = camp.contact_id
+INNER JOIN category cat ON cat.category_id = camp.category_id
+INNER JOIN subcategory sub ON sub.subcategory_id = camp.subcategory_id;
