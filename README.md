@@ -24,7 +24,7 @@ The project directory structure is organized as follows:
 
 + Resources: Contains the Excel starter files and CSV files exported from data research.
 + Notebooks: Individual Jupyter notebooks for each group member's work.
-+ ETL_Mini_Project_Final.ipynb: The final draft of the code where all individual work is merged.
++ ETL_Mini_Project.ipynb: Jupyter Lab Notebook code with project code
 
   # Jupyter Notebook
   ## Crowdfunding Data
