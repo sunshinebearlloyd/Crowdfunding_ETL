@@ -32,13 +32,23 @@ The project directory structure is organized as follows:
   
     ![image](https://github.com/sunshinebearlloyd/Crowdfunding_ETL/assets/132225987/6281a629-c999-44d3-ad5c-5d211b467c41)
 
-  ## Campaign DataFrame
   Angelo narrowed his research and continued to analyze the categories; breaking them down into subcategories. A total of 24 subcategories were present in the dataset. The first ten subcategories are below.
   
   ![image](https://github.com/sunshinebearlloyd/Crowdfunding_ETL/assets/132225987/1dcbfc79-1e05-4a30-839c-5eb3082ffa04)
 
+  ## Campaign DataFrame
+  Ashley's responsibilities centered around the Campaign portion of the project. The primary goal was to ensure the data used was clean and in the correct format. Tasks included data cleaning and merging the category_df and subcatefory_df. 
+
   ## Contacts DataFrame
+  Natalie's area of focus centered around the contacts of the Crowdfunding campaigns. Data needed to be cleaned and extracted to provide a dataframe with only the contact_id, first_name, last_name, and email addresses. 
+  
+  ![image](https://github.com/sunshinebearlloyd/Crowdfunding_ETL/assets/132225987/d2e3572f-7ab9-4e06-92c9-895466266825)
+
   ## SQL Schema and Queries
+  After all data was extracted and cleaned, Shannon pulled together and created a SQL schema via QuickDBD to provide a visual representation of our database. She then uses query statements to populate all tables created and populated correctly. 
+  
+  ![image](https://github.com/sunshinebearlloyd/Crowdfunding_ETL/assets/132225987/3aecab61-1a60-4244-9d81-d546dcd3a02d)
+
 
 
 
