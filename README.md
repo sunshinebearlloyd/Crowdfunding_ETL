@@ -52,6 +52,11 @@ The project directory structure is organized as follows:
 
   It's important to note that each team member had a distinct role that contributed to the overall success of the ETL (Extract, Transform, Load) pipeline project. These roles included data categorization, data cleaning, and data extraction, ensuring that the project's data was well-prepared for further analysis and use. Additionally, the collaborative effort involved merging various datasets to create a cohesive dataset for the project's objectives. The collaboration and coordination of these roles were essential in achieving the project's goals effectively.
 
+# Authors
++ Angelo Lima ![LinkedIn](https://www.linkedin.com/in/angelo-lima-23780467/) | ![GitHub](https://github.com/aclima88)
++ Natalie Binder ![LinkedIn](https://www.linkedin.com/in/natalie-binder-936b1a233/) | ![GitHub](https://github.com/NatalieBinder) 
++ Shannon Lloyd ![GitHub](https://github.com/sunshinebearlloyd)
++ Ashley Yakopec-Ley ![LinkedIn](https://www.linkedin.com/in/ashley-yakopec/) | ![GitHub](https://github.com/yakopeca)
 
 
 
