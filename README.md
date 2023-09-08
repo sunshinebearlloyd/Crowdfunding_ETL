@@ -23,7 +23,6 @@ To run this project, follow these steps:
 The project directory structure is organized as follows:
 
 + Resources: Contains the Excel starter files and CSV files exported from data research.
-+ Notebooks: Individual Jupyter notebooks for each group member's work.
 + ETL_Mini_Project.ipynb: Jupyter Lab Notebook code with project code
 + Crowdfunding_db_schema.sql: SQL Schema
 + Crowdfunding.png: SQL Photo of SQL schema 
