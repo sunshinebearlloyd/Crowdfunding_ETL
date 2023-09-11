@@ -29,9 +29,9 @@ CREATE TABLE "campaign" (
 
 CREATE TABLE "contacts" (
     "contact_id" INT   NOT NULL,
-    "email" VARCHAR(255)   NOT NULL,
     "first_name" VARCHAR(255)   NOT NULL,
-    "last_name" VARCHAR(255)   NOT NULL,
+    "last_name" VARCHAR(255)   NOT NULL,    
+    "email" VARCHAR(255)   NOT NULL,
     CONSTRAINT "pk_contacts" PRIMARY KEY (
         "contact_id"
      )
